@@ -148,7 +148,7 @@
         <div class="submit-row">
             <input type="submit" value="{% trans 'Save' %}" class="default" />
             <p class="deletelink-box">
-                <a href="{% url filebrowser:fb_delete_confirm %}{% query_string %}" class="deletelink">{% trans "Delete" %}</a>
+                <a href="{% url 'filebrowser:fb_delete_confirm' %}{% query_string %}" class="deletelink">{% trans "Delete" %}</a>
             </p>
             <input type="submit" value="{% trans 'Save and continue editing' %}" name="_continue" />
         </div>
